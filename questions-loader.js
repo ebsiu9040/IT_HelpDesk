@@ -18,10 +18,16 @@ async function loadQuizQuestions(){
   const bytes=Uint8Array.from(binary,char=>char.charCodeAt(0));
   const stream=new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'));
   const json=await new Response(stream).text();
-  const questions=JSON.parse(json);
+  const baseQuestions=JSON.parse(json);
 
-  if(!Array.isArray(questions)||questions.length!==60){
-    throw new Error(`Dữ liệu câu hỏi không hợp lệ: nhận được ${questions?.length??0}/60 câu.`);
+  const coolingResponse=await fetch('data/cooling.json');
+  if(!coolingResponse.ok) throw new Error('Không tải được data/cooling.json');
+  const coolingQuestions=await coolingResponse.json();
+
+  const questions=[...baseQuestions,...coolingQuestions];
+
+  if(!Array.isArray(questions)||questions.length!==70){
+    throw new Error(`Dữ liệu câu hỏi không hợp lệ: nhận được ${questions?.length??0}/70 câu.`);
   }
 
   window.QUIZ_QUESTIONS=questions;
