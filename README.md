@@ -8,7 +8,8 @@
 - Video 2 — Motherboards/Mainboard: 20 câu
 - Video 3 — Motherboard Connections: 10 câu
 - Video 4 — CPU Features: 10 câu
-- Tổng cộng: 60 câu
+- Video 5 — Cooling: 10 câu
+- Tổng cộng: 70 câu
 
 ## Tính năng
 
@@ -23,8 +24,8 @@
 
 ## Chạy trên máy
 
-Mở `index.html` bằng trình duyệt. Có thể dùng Live Server để quá trình phát triển thuận tiện hơn.
+Dùng Live Server hoặc một web server tĩnh để mở dự án. Dữ liệu câu hỏi được tải bằng `fetch`, nên không nên mở trực tiếp bằng giao thức `file://`.
 
 ## GitHub Pages
 
-Vào **Settings → Pages**, chọn **Deploy from a branch**, sau đó chọn nhánh `main` và thư mục `/ (root)`.
+Repository có workflow `.github/workflows/deploy-pages.yml` để triển khai tự động từ nhánh `main` khi GitHub Pages được đặt nguồn là **GitHub Actions**.
