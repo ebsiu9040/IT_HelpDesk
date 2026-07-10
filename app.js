@@ -4,6 +4,7 @@ const SETS = {
   motherboard: {name:"Video 2 — Motherboards/Mainboard", short:"Video 2", filter:q=>q.video==="motherboard"},
   connections: {name:"Video 3 — Motherboard Connections", short:"Video 3", filter:q=>q.video==="connections"},
   cpu_features: {name:"Video 4 — CPU Features", short:"Video 4", filter:q=>q.video==="cpu_features"},
+  cooling: {name:"Video 5 — Cooling", short:"Video 5", filter:q=>q.video==="cooling"},
   all: {name:"Tất cả video", short:"Tất cả", filter:q=>true}
 };
 const state={activeSet:"laptop", sourceSet:"laptop", order:[], current:0, answers:{}, showQuestionVi:true, showOptionVi:true, showVocab:true, showExplain:true, isRetry:false, theme:localStorage.getItem("aPlusTheme")||"light"};
