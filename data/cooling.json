@@ -1,0 +1,405 @@
+[
+  {
+    "id": 61,
+    "title": "Case airflow direction",
+    "question_en": "A technician is configuring case fans for proper airflow. Which arrangement is BEST?",
+    "question_vi": "Một kỹ thuật viên đang cấu hình quạt case để luồng không khí hoạt động đúng. Cách bố trí nào là tốt nhất?",
+    "options": [
+      {
+        "key": "A",
+        "en": "Pull cool air into one side and exhaust hot air from the other side",
+        "vi": "Hút không khí mát vào một phía và đẩy khí nóng ra phía còn lại"
+      },
+      {
+        "key": "B",
+        "en": "Configure every fan to blow air into the case",
+        "vi": "Cấu hình tất cả quạt thổi không khí vào case"
+      },
+      {
+        "key": "C",
+        "en": "Configure every fan to exhaust air from the case",
+        "vi": "Cấu hình tất cả quạt đẩy không khí ra khỏi case"
+      },
+      {
+        "key": "D",
+        "en": "Block the rear vents to reduce dust",
+        "vi": "Che các lỗ thông gió phía sau để giảm bụi"
+      }
+    ],
+    "answer": "A",
+    "explain": "<strong>A đúng:</strong> luồng khí tốt thường đưa khí mát vào một phía, cho khí đi qua các linh kiện nóng rồi đẩy khí nóng ra phía còn lại. <br><strong>B sai:</strong> chỉ hút vào có thể làm khí nóng khó thoát. <br><strong>C sai:</strong> chỉ đẩy ra không tạo được luồng khí mát đi qua linh kiện một cách tối ưu. <br><strong>D sai:</strong> che lỗ thông gió làm giảm airflow và tăng nhiệt độ.",
+    "keywords": [
+      "proper airflow = luồng khí đúng",
+      "pull cool air in = hút khí mát vào",
+      "exhaust hot air = đẩy khí nóng ra",
+      "case fans = quạt case",
+      "BEST = tốt nhất"
+    ],
+    "video": "cooling",
+    "videoTitle": "Video 5 — Cooling",
+    "objective": "220-1201 · 3.5 Cooling"
+  },
+  {
+    "id": 62,
+    "title": "Cable management and airflow",
+    "question_en": "A desktop computer is overheating even though all case fans are working. Cables are blocking the path between the intake and exhaust fans. What should the technician do FIRST?",
+    "question_vi": "Một máy desktop bị quá nhiệt dù tất cả quạt case vẫn hoạt động. Dây cáp đang chặn đường khí giữa quạt hút và quạt xả. Kỹ thuật viên nên làm gì đầu tiên?",
+    "options": [
+      {
+        "key": "A",
+        "en": "Rearrange and secure the cables to improve airflow",
+        "vi": "Sắp xếp và cố định dây cáp để cải thiện luồng khí"
+      },
+      {
+        "key": "B",
+        "en": "Replace the motherboard",
+        "vi": "Thay mainboard"
+      },
+      {
+        "key": "C",
+        "en": "Disable the exhaust fan",
+        "vi": "Tắt quạt xả"
+      },
+      {
+        "key": "D",
+        "en": "Install a 32-bit operating system",
+        "vi": "Cài hệ điều hành 32-bit"
+      }
+    ],
+    "answer": "A",
+    "explain": "<strong>A đúng:</strong> dây cáp và linh kiện cản đường khí có thể làm giảm khả năng làm mát; quản lý dây giúp khí đi xuyên qua case. <br><strong>B sai:</strong> chưa có dấu hiệu mainboard hỏng. <br><strong>C sai:</strong> tắt quạt xả khiến khí nóng tích tụ thêm. <br><strong>D sai:</strong> kiến trúc hệ điều hành không giải quyết airflow.",
+    "keywords": [
+      "overheating = quá nhiệt",
+      "blocking the path = chặn đường",
+      "intake fan = quạt hút",
+      "exhaust fan = quạt xả",
+      "rearrange cables = sắp xếp dây",
+      "FIRST = đầu tiên"
+    ],
+    "video": "cooling",
+    "videoTitle": "Video 5 — Cooling",
+    "objective": "220-1201 · 3.5 Cooling"
+  },
+  {
+    "id": 63,
+    "title": "On-board graphics card fan",
+    "question_en": "Which component is MOST likely to include its own on-board fan because it can generate significant heat?",
+    "question_vi": "Linh kiện nào có khả năng cao nhất được trang bị quạt riêng trên card vì có thể tạo ra nhiều nhiệt?",
+    "options": [
+      {
+        "key": "A",
+        "en": "A high-end graphics card",
+        "vi": "Card đồ họa cao cấp"
+      },
+      {
+        "key": "B",
+        "en": "A passive USB flash drive",
+        "vi": "USB flash thụ động"
+      },
+      {
+        "key": "C",
+        "en": "A SATA data cable",
+        "vi": "Cáp dữ liệu SATA"
+      },
+      {
+        "key": "D",
+        "en": "A CMOS battery",
+        "vi": "Pin CMOS"
+      }
+    ],
+    "answer": "A",
+    "explain": "<strong>A đúng:</strong> card đồ họa cao cấp thường tạo nhiều nhiệt và có quạt riêng để tập trung làm mát GPU. <br><strong>B sai:</strong> USB flash thường không cần quạt. <br><strong>C sai:</strong> cáp SATA không phải linh kiện xử lý tạo nhiệt lớn. <br><strong>D sai:</strong> pin CMOS không cần hệ thống quạt riêng.",
+    "keywords": [
+      "on-board fan = quạt gắn trên card",
+      "significant heat = lượng nhiệt đáng kể",
+      "high-end graphics card = card đồ họa cao cấp",
+      "MOST likely = có khả năng cao nhất"
+    ],
+    "video": "cooling",
+    "videoTitle": "Video 5 — Cooling",
+    "objective": "220-1201 · 3.5 Cooling"
+  },
+  {
+    "id": 64,
+    "title": "Variable-speed case fans",
+    "question_en": "A computer's case fans become louder as the system temperature increases. What is the MOST likely explanation?",
+    "question_vi": "Quạt case của máy tính trở nên ồn hơn khi nhiệt độ hệ thống tăng. Giải thích nào có khả năng đúng nhất?",
+    "options": [
+      {
+        "key": "A",
+        "en": "Variable-speed fans are rotating faster to provide more cooling",
+        "vi": "Quạt thay đổi tốc độ đang quay nhanh hơn để tăng khả năng làm mát"
+      },
+      {
+        "key": "B",
+        "en": "The SATA data cable is transferring more power",
+        "vi": "Cáp dữ liệu SATA đang truyền nhiều điện hơn"
+      },
+      {
+        "key": "C",
+        "en": "The CMOS battery is being recharged",
+        "vi": "Pin CMOS đang được sạc lại"
+      },
+      {
+        "key": "D",
+        "en": "The operating system changed from x64 to x86",
+        "vi": "Hệ điều hành đã chuyển từ x64 sang x86"
+      }
+    ],
+    "answer": "A",
+    "explain": "<strong>A đúng:</strong> quạt biến tốc thường quay chậm khi máy mát và tăng tốc khi máy nóng; tốc độ cao hơn thường tạo nhiều tiếng ồn hơn. <br><strong>B sai:</strong> SATA data truyền dữ liệu, không điều khiển tốc độ quạt. <br><strong>C sai:</strong> pin CMOS không gây tiếng quạt tăng. <br><strong>D sai:</strong> kiến trúc hệ điều hành không tự thay đổi và không giải thích tiếng quạt.",
+    "keywords": [
+      "variable-speed fan = quạt thay đổi tốc độ",
+      "system temperature = nhiệt độ hệ thống",
+      "rotating faster = quay nhanh hơn",
+      "provide more cooling = tăng làm mát",
+      "louder = ồn hơn"
+    ],
+    "video": "cooling",
+    "videoTitle": "Video 5 — Cooling",
+    "objective": "220-1201 · 3.5 Cooling"
+  },
+  {
+    "id": 65,
+    "title": "Passive cooling",
+    "question_en": "A manufacturer is designing a quiet set-top box that produces a manageable amount of heat. Which cooling method is MOST appropriate?",
+    "question_vi": "Một nhà sản xuất đang thiết kế set-top box hoạt động yên tĩnh và chỉ tạo lượng nhiệt có thể kiểm soát. Phương pháp làm mát nào phù hợp nhất?",
+    "options": [
+      {
+        "key": "A",
+        "en": "Passive cooling with a heat sink",
+        "vi": "Làm mát thụ động bằng bộ tản nhiệt"
+      },
+      {
+        "key": "B",
+        "en": "Multiple high-speed case fans",
+        "vi": "Nhiều quạt case tốc độ cao"
+      },
+      {
+        "key": "C",
+        "en": "An external SATA connector",
+        "vi": "Cổng eSATA"
+      },
+      {
+        "key": "D",
+        "en": "A larger CMOS battery",
+        "vi": "Pin CMOS lớn hơn"
+      }
+    ],
+    "answer": "A",
+    "explain": "<strong>A đúng:</strong> passive cooling không dùng quạt nên phù hợp thiết bị cần yên tĩnh và có lượng nhiệt dễ quản lý; thường kết hợp heat sink. <br><strong>B sai:</strong> quạt tốc độ cao tạo nhiều tiếng ồn. <br><strong>C sai:</strong> eSATA là kết nối lưu trữ, không phải giải pháp làm mát. <br><strong>D sai:</strong> pin CMOS không liên quan đến tản nhiệt.",
+    "keywords": [
+      "passive cooling = làm mát thụ động",
+      "fanless system = hệ thống không quạt",
+      "quiet = yên tĩnh",
+      "manageable heat = nhiệt có thể kiểm soát",
+      "set-top box = hộp giải mã truyền hình"
+    ],
+    "video": "cooling",
+    "videoTitle": "Video 5 — Cooling",
+    "objective": "220-1201 · 3.5 Cooling"
+  },
+  {
+    "id": 66,
+    "title": "Heat sink function",
+    "question_en": "How does a heat sink help cool a computer component?",
+    "question_vi": "Bộ tản nhiệt giúp làm mát linh kiện máy tính bằng cách nào?",
+    "options": [
+      {
+        "key": "A",
+        "en": "It spreads heat across fins to increase the surface area exposed to airflow",
+        "vi": "Nó phân tán nhiệt qua các lá tản để tăng diện tích bề mặt tiếp xúc với luồng khí"
+      },
+      {
+        "key": "B",
+        "en": "It stores heat permanently inside the CPU",
+        "vi": "Nó lưu nhiệt vĩnh viễn bên trong CPU"
+      },
+      {
+        "key": "C",
+        "en": "It converts heat into additional electrical power",
+        "vi": "Nó chuyển nhiệt thành điện năng bổ sung"
+      },
+      {
+        "key": "D",
+        "en": "It blocks air from reaching the component",
+        "vi": "Nó chặn không khí tiếp cận linh kiện"
+      }
+    ],
+    "answer": "A",
+    "explain": "<strong>A đúng:</strong> heat sink đưa nhiệt từ linh kiện ra nhiều lá tản, tăng diện tích bề mặt để không khí mang nhiệt đi. <br><strong>B sai:</strong> mục tiêu là truyền nhiệt ra ngoài chứ không giữ nhiệt trong CPU. <br><strong>C sai:</strong> heat sink không tạo điện. <br><strong>D sai:</strong> các lá tản được thiết kế để không khí đi qua, không phải để chặn khí.",
+    "keywords": [
+      "heat sink = bộ tản nhiệt",
+      "dissipate heat = tản nhiệt",
+      "fins = các lá tản",
+      "surface area = diện tích bề mặt",
+      "airflow = luồng khí"
+    ],
+    "video": "cooling",
+    "videoTitle": "Video 5 — Cooling",
+    "objective": "220-1201 · 3.5 Cooling"
+  },
+  {
+    "id": 67,
+    "title": "Thermal paste application",
+    "question_en": "A technician is reinstalling a CPU heat sink. What is the BEST practice when applying thermal paste?",
+    "question_vi": "Một kỹ thuật viên đang lắp lại bộ tản nhiệt CPU. Cách làm nào tốt nhất khi bôi keo tản nhiệt?",
+    "options": [
+      {
+        "key": "A",
+        "en": "Apply a small pea-sized amount to create a thermal connection",
+        "vi": "Bôi một lượng nhỏ cỡ hạt đậu để tạo tiếp xúc truyền nhiệt"
+      },
+      {
+        "key": "B",
+        "en": "Cover the entire motherboard with a thick layer",
+        "vi": "Phủ toàn bộ mainboard bằng một lớp dày"
+      },
+      {
+        "key": "C",
+        "en": "Reuse the dried paste from the old installation",
+        "vi": "Tái sử dụng keo đã khô từ lần lắp trước"
+      },
+      {
+        "key": "D",
+        "en": "Leave an air gap between the CPU and heat sink",
+        "vi": "Để một khoảng không khí giữa CPU và bộ tản nhiệt"
+      }
+    ],
+    "answer": "A",
+    "explain": "<strong>A đúng:</strong> một lượng nhỏ cỡ hạt đậu thường đủ để dàn đều và tạo liên kết nhiệt giữa CPU với heat sink. <br><strong>B sai:</strong> dùng quá nhiều gây bẩn và không cải thiện truyền nhiệt. <br><strong>C sai:</strong> keo cũ nên được làm sạch và thay mới khi tháo heat sink. <br><strong>D sai:</strong> khe không khí làm truyền nhiệt kém; thermal paste dùng để lấp các khe vi mô.",
+    "keywords": [
+      "thermal paste = keo tản nhiệt",
+      "thermal grease = mỡ tản nhiệt",
+      "conductive grease = mỡ dẫn nhiệt",
+      "pea-sized amount = lượng cỡ hạt đậu",
+      "thermal connection = tiếp xúc truyền nhiệt",
+      "reinstalling = lắp lại"
+    ],
+    "video": "cooling",
+    "videoTitle": "Video 5 — Cooling",
+    "objective": "220-1201 · 3.5 Cooling"
+  },
+  {
+    "id": 68,
+    "title": "Thermal pad replacement",
+    "question_en": "A technician removes a heat sink that uses a thermal pad. What should be done before reinstalling the heat sink?",
+    "question_vi": "Một kỹ thuật viên tháo bộ tản nhiệt đang sử dụng miếng đệm nhiệt. Cần làm gì trước khi lắp lại bộ tản nhiệt?",
+    "options": [
+      {
+        "key": "A",
+        "en": "Replace the thermal pad with a new one",
+        "vi": "Thay miếng đệm nhiệt mới"
+      },
+      {
+        "key": "B",
+        "en": "Flip the old pad over and reuse it indefinitely",
+        "vi": "Lật miếng cũ lại và tái sử dụng vô thời hạn"
+      },
+      {
+        "key": "C",
+        "en": "Remove the heat sink permanently",
+        "vi": "Tháo bỏ bộ tản nhiệt vĩnh viễn"
+      },
+      {
+        "key": "D",
+        "en": "Install a SATA cable between the CPU and heat sink",
+        "vi": "Lắp cáp SATA giữa CPU và bộ tản nhiệt"
+      }
+    ],
+    "answer": "A",
+    "explain": "<strong>A đúng:</strong> thermal pad không tái sử dụng; nếu đã tháo thì cần thay miếng mới. <br><strong>B sai:</strong> miếng cũ có thể biến dạng và không còn tạo tiếp xúc nhiệt tốt. <br><strong>C sai:</strong> linh kiện vẫn cần heat sink để tản nhiệt. <br><strong>D sai:</strong> cáp SATA không có vai trò trong kết nối nhiệt.",
+    "keywords": [
+      "thermal pad = miếng đệm nhiệt",
+      "not reusable = không tái sử dụng",
+      "remove a heat sink = tháo bộ tản nhiệt",
+      "reinstall = lắp lại",
+      "replace = thay mới"
+    ],
+    "video": "cooling",
+    "videoTitle": "Video 5 — Cooling",
+    "objective": "220-1201 · 3.5 Cooling"
+  },
+  {
+    "id": 69,
+    "title": "CPU cooling stack",
+    "question_en": "Which sequence correctly describes a typical CPU air-cooling assembly from bottom to top?",
+    "question_vi": "Thứ tự nào mô tả đúng cấu trúc làm mát CPU bằng không khí, từ dưới lên trên?",
+    "options": [
+      {
+        "key": "A",
+        "en": "CPU → thermal paste or pad → heat sink → fan",
+        "vi": "CPU → keo hoặc miếng đệm nhiệt → bộ tản nhiệt → quạt"
+      },
+      {
+        "key": "B",
+        "en": "Fan → CPU → SATA cable → heat sink",
+        "vi": "Quạt → CPU → cáp SATA → bộ tản nhiệt"
+      },
+      {
+        "key": "C",
+        "en": "Heat sink → motherboard → CPU → CMOS battery",
+        "vi": "Bộ tản nhiệt → mainboard → CPU → pin CMOS"
+      },
+      {
+        "key": "D",
+        "en": "CPU → air gap → plastic cover → fan",
+        "vi": "CPU → khoảng không khí → nắp nhựa → quạt"
+      }
+    ],
+    "answer": "A",
+    "explain": "<strong>A đúng:</strong> CPU truyền nhiệt qua thermal paste/pad sang heat sink, sau đó quạt đẩy khí qua heat sink. <br><strong>B sai:</strong> cáp SATA không nằm trong cụm làm mát CPU. <br><strong>C sai:</strong> thứ tự vật lý không đúng. <br><strong>D sai:</strong> không nên để air gap vì nó làm giảm truyền nhiệt.",
+    "keywords": [
+      "sequence = thứ tự",
+      "from bottom to top = từ dưới lên trên",
+      "CPU cooling assembly = cụm làm mát CPU",
+      "thermal paste or pad = keo hoặc miếng đệm nhiệt",
+      "heat sink = bộ tản nhiệt"
+    ],
+    "video": "cooling",
+    "videoTitle": "Video 5 — Cooling",
+    "objective": "220-1201 · 3.5 Cooling"
+  },
+  {
+    "id": 70,
+    "title": "Liquid cooling system",
+    "question_en": "A user is overclocking a high-end gaming computer and needs improved cooling with less reliance on a CPU fan directly on the heat sink. Which solution is MOST appropriate?",
+    "question_vi": "Người dùng đang ép xung một máy chơi game cao cấp và cần khả năng làm mát tốt hơn, ít phụ thuộc vào quạt CPU đặt trực tiếp trên bộ tản nhiệt. Giải pháp nào phù hợp nhất?",
+    "options": [
+      {
+        "key": "A",
+        "en": "Liquid cooling with coolant pipes, a radiator, and radiator fans",
+        "vi": "Tản nhiệt chất lỏng với ống dẫn dung dịch, radiator và quạt radiator"
+      },
+      {
+        "key": "B",
+        "en": "A passive cooling system with no heat sink",
+        "vi": "Hệ thống làm mát thụ động không có bộ tản nhiệt"
+      },
+      {
+        "key": "C",
+        "en": "A 20-pin ATX power connector",
+        "vi": "Đầu nguồn ATX 20-pin"
+      },
+      {
+        "key": "D",
+        "en": "An eSATA expansion card",
+        "vi": "Card mở rộng eSATA"
+      }
+    ],
+    "answer": "A",
+    "explain": "<strong>A đúng:</strong> liquid cooling thường dùng cho hệ thống cao cấp, gaming hoặc overclocking; chất làm mát mang nhiệt từ CPU tới radiator, nơi quạt làm mát chất lỏng. <br><strong>B sai:</strong> hệ thống ép xung tạo nhiều nhiệt và không phù hợp với giải pháp không heat sink. <br><strong>C sai:</strong> đầu nguồn ATX không phải phương pháp làm mát. <br><strong>D sai:</strong> eSATA là kết nối lưu trữ ngoài.",
+    "keywords": [
+      "overclocking = ép xung",
+      "high-end system = hệ thống cao cấp",
+      "liquid cooling = tản nhiệt chất lỏng",
+      "coolant = chất làm mát",
+      "pipes = ống dẫn",
+      "radiator = két/bộ tản nhiệt chất lỏng",
+      "radiator fans = quạt radiator"
+    ],
+    "video": "cooling",
+    "videoTitle": "Video 5 — Cooling",
+    "objective": "220-1201 · 3.5 Cooling"
+  }
+]
