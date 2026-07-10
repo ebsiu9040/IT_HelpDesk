@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="CompTIA A+ Quiz Trainer theo từng video, song ngữ Anh–Việt." />
+<title>CompTIA A+ Quiz Trainer — Theo từng video</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div class="wrap">
+  <nav class="top">
+    <div class="brand"><div class="logo">A+</div><div><h1>CompTIA A+ Quiz Trainer</h1><p>Mỗi video = một bộ câu hỏi riêng</p></div></div>
+    <div class="actions"><button class="btn" id="themeBtn">Đổi giao diện</button><button class="btn" id="allBtn">Tất cả video</button><button class="btn" id="shuffleBtn">Trộn bộ hiện tại</button><button class="btn red" id="resetBtn">Làm lại bộ này</button></div>
+  </nav>
+  <section class="hero">
+    <div class="card heroCard"><div class="eyebrow">220-1201 · Quiz theo video</div><h2>Chọn đúng video, luyện đúng bộ câu hỏi.</h2><p class="lead">Bạn có thể học từng video riêng: Laptop Hardware 20 câu, Motherboards 20 câu, Motherboard Connections 10 câu, CPU Features 10 câu, hoặc chọn toàn bộ để ôn tổng hợp.</p><div class="actions" style="position:relative;z-index:1;margin-top:20px"><button class="btn primary" id="startBtn">Bắt đầu</button><button class="btn" id="learnBtn">Chế độ học</button><button class="btn" id="examBtn">Chế độ thi</button></div></div>
+    <div class="card side"><div class="setBox"><div class="label">Chọn bộ câu hỏi</div><select id="setSelect"><option value="laptop">Video 1 — Laptop Hardware (20 câu)</option><option value="motherboard">Video 2 — Motherboards/Mainboard (20 câu)</option><option value="connections">Video 3 — Motherboard Connections (10 câu)</option><option value="cpu_features">Video 4 — CPU Features (10 câu)</option><option value="all">Tất cả video (60 câu)</option></select></div><div class="metrics"><div class="metric"><div class="label">Đã trả lời</div><div class="value" id="mAnswered">0/20</div></div><div class="metric"><div class="label">Đúng</div><div class="value" id="mScore">0</div></div><div class="metric"><div class="label">Sai</div><div class="value" id="mWrong">0</div></div><div class="metric"><div class="label">Bộ đang học</div><div class="value" id="mSet" style="font-size:22px">Video 1</div></div></div><div><div class="label" style="margin-bottom:8px">Tiến độ bộ này</div><div class="bar"><div id="progressFill"></div></div></div></div>
+  </section>
+  <section class="main">
+    <aside class="sidebar">
+      <div class="panel"><h3>Điều khiển học</h3><div class="toggles"><button class="toggle active" id="toggleQuestionVi">Dịch câu hỏi <span>ON</span></button><button class="toggle active" id="toggleOptionVi">Dịch đáp án <span>ON</span></button><button class="toggle active" id="toggleVocab">Từ vựng <span>ON</span></button><button class="toggle active" id="toggleExplain">Giải thích <span>ON</span></button></div></div>
+      <div class="panel"><h3>Bản đồ câu hỏi</h3><div class="map" id="questionMap"></div></div>
+      <div class="panel"><h3>Từ vựng trong bộ hiện tại</h3><input id="glossarySearch" placeholder="Tìm: socket, POST, battery..." /><div class="terms" id="glossaryList"></div></div>
+    </aside>
+    <main>
+      <div class="banner" id="retryBanner"><strong>Đang luyện câu sai</strong><p id="retryText">Bạn đang luyện lại câu sai.</p><button class="btn primary" id="backSetBtn">Quay lại bộ video</button> <button class="btn" id="backAllBtn">Tất cả video</button></div>
+      <article class="card quiz" id="quizCard"><div class="quizHead"><div class="topic" id="topic">Câu 1</div><div class="pill" id="statusPill">Chưa trả lời</div></div><h2 class="question" id="questionText"></h2><div class="vi" id="questionVi"></div><div class="answers" id="answers"></div><div class="feedback"><div class="fb" id="vocabBox"><h3>Keyword / từ vựng</h3><div class="chips" id="keywordChips"></div></div><div class="fb" id="explainBox"><h3>Giải thích</h3><div id="explainText"></div></div></div><div class="navBtns"><button class="btn" id="prevBtn">← Câu trước</button><button class="btn primary" id="nextBtn">Câu sau →</button></div></article>
+      <article class="card results" id="results"><div class="resultGrid"><div><div class="eyebrow">Kết quả bộ câu hỏi</div><h2 class="big" id="finalScore">0/20</h2></div><div><h2 id="finalTitle" style="font-size:32px">Hoàn thành.</h2><p class="lead" id="finalMsg"></p><div class="actions"><button class="btn primary" id="retryWrongBtn">Luyện lại câu sai</button><button class="btn" id="reviewAllBtn">Xem lại bộ này</button><button class="btn" id="chooseAllResultBtn">Tất cả video</button><button class="btn red" id="restartBtn">Làm lại bộ này</button></div></div></div><div class="review" id="reviewList"></div></article>
+    </main>
+  </section>
+</div><div class="toast" id="toast"></div>
+<script src="data/laptop-hardware.js"></script>
+<script src="data/motherboards.js"></script>
+<script src="data/motherboard-connections.js"></script>
+<script src="data/cpu-features.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
